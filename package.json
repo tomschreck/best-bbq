@@ -1,0 +1,34 @@
+{
+  "name": "best-bbq-ft-worth-texas",
+  "version": "1.0.0",
+  "description": "Best BBQ in Fort Worth Texas",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "wt create -w -b --secrets-file .secrets .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomschreck/best-bbq.git"
+  },
+  "keywords": [
+    "BBQ",
+    "TEXAS",
+    "FT",
+    "WORTH"
+  ],
+  "author": "Tom Schreck <tom@schreckmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomschreck/best-bbq/issues"
+  },
+  "homepage": "https://github.com/tomschreck/best-bbq#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pug": "^2.0.3",
+    "webtask-tools": "^3.4.0",
+    "yelp-fusion": "^2.2.1"
+  }
+}
