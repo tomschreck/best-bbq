@@ -1,3 +1,4 @@
+'use strict';
 'use latest';
 
 import express from 'express';
@@ -11,7 +12,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(cors());
 app.set('view engine', 'pug');
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/styles'));
 
 require('./routes/index')(app);
 
